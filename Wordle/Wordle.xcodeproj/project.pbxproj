@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C020025527FDF7ED00A257E6 /* UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020025427FDF7ED00A257E6 /* UIWindow.swift */; };
+		C020025727FDF8A400A257E6 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020025627FDF8A400A257E6 /* SettingsView.swift */; };
+		C020025B27FE23B400A257E6 /* HelpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C020025A27FE23B400A257E6 /* HelpView.swift */; };
+		C02F49212801DC4000A1EB9A /* Statistics.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F49202801DC4000A1EB9A /* Statistics.swift */; };
+		C02F492728021B8300A1EB9A /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C02F492628021B8300A1EB9A /* StatsView.swift */; };
+		C07D6AAA27F890C400D7EB97 /* WordleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AA927F890C400D7EB97 /* WordleApp.swift */; };
+		C07D6AAC27F890C400D7EB97 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AAB27F890C400D7EB97 /* GameView.swift */; };
+		C07D6AAE27F890C400D7EB97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07D6AAD27F890C400D7EB97 /* Assets.xcassets */; };
+		C07D6AB127F890C400D7EB97 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C07D6AB027F890C400D7EB97 /* Preview Assets.xcassets */; };
+		C07D6ABB27F890C400D7EB97 /* WordleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6ABA27F890C400D7EB97 /* WordleTests.swift */; };
+		C07D6AC527F890C500D7EB97 /* WordleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AC427F890C500D7EB97 /* WordleUITests.swift */; };
+		C07D6AC727F890C500D7EB97 /* WordleUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AC627F890C500D7EB97 /* WordleUITestsLaunchTests.swift */; };
+		C07D6ADA27F8ABB500D7EB97 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AD927F8ABB500D7EB97 /* ColorExtension.swift */; };
+		C07D6ADC27F8AC7C00D7EB97 /* Guess.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6ADB27F8AC7C00D7EB97 /* Guess.swift */; };
+		C07D6ADE27F8AD4A00D7EB97 /* GuessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6ADD27F8AD4A00D7EB97 /* GuessView.swift */; };
+		C07D6AE027F8CC5000D7EB97 /* WordleDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6ADF27F8CC5000D7EB97 /* WordleDataModel.swift */; };
+		C07D6AE227F8CD6D00D7EB97 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AE127F8CD6D00D7EB97 /* Global.swift */; };
+		C07D6AE427F8D06500D7EB97 /* LetterButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AE327F8D06500D7EB97 /* LetterButtonView.swift */; };
+		C07D6AE627F8D17300D7EB97 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = C07D6AE527F8D17300D7EB97 /* Keyboard.swift */; };
+		C0CAA5C627FA2CC200DBD5A6 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAA5C527FA2CC200DBD5A6 /* FlipView.swift */; };
+		C0CAA5C827FA2E3100DBD5A6 /* Shake.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0CAA5C727FA2E3100DBD5A6 /* Shake.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C07D6AB727F890C400D7EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07D6A9E27F890C400D7EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07D6AA527F890C400D7EB97;
+			remoteInfo = Wordle;
+		};
+		C07D6AC127F890C500D7EB97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C07D6A9E27F890C400D7EB97 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C07D6AA527F890C400D7EB97;
+			remoteInfo = Wordle;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C020025427FDF7ED00A257E6 /* UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIWindow.swift; sourceTree = "<group>"; };
+		C020025627FDF8A400A257E6 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		C020025A27FE23B400A257E6 /* HelpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpView.swift; sourceTree = "<group>"; };
+		C02F49202801DC4000A1EB9A /* Statistics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Statistics.swift; sourceTree = "<group>"; };
+		C02F492628021B8300A1EB9A /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		C07D6AA627F890C400D7EB97 /* Wordle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Wordle.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07D6AA927F890C400D7EB97 /* WordleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleApp.swift; sourceTree = "<group>"; };
+		C07D6AAB27F890C400D7EB97 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		C07D6AAD27F890C400D7EB97 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C07D6AB027F890C400D7EB97 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C07D6AB627F890C400D7EB97 /* WordleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07D6ABA27F890C400D7EB97 /* WordleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleTests.swift; sourceTree = "<group>"; };
+		C07D6AC027F890C500D7EB97 /* WordleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WordleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C07D6AC427F890C500D7EB97 /* WordleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITests.swift; sourceTree = "<group>"; };
+		C07D6AC627F890C500D7EB97 /* WordleUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C07D6AD927F8ABB500D7EB97 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		C07D6ADB27F8AC7C00D7EB97 /* Guess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guess.swift; sourceTree = "<group>"; };
+		C07D6ADD27F8AD4A00D7EB97 /* GuessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessView.swift; sourceTree = "<group>"; };
+		C07D6ADF27F8CC5000D7EB97 /* WordleDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordleDataModel.swift; sourceTree = "<group>"; };
+		C07D6AE127F8CD6D00D7EB97 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
+		C07D6AE327F8D06500D7EB97 /* LetterButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LetterButtonView.swift; sourceTree = "<group>"; };
+		C07D6AE527F8D17300D7EB97 /* Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Keyboard.swift; sourceTree = "<group>"; };
+		C0CAA5C527FA2CC200DBD5A6 /* FlipView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipView.swift; sourceTree = "<group>"; };
+		C0CAA5C727FA2E3100DBD5A6 /* Shake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Shake.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C07D6AA327F890C400D7EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6AB327F890C400D7EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6ABD27F890C400D7EB97 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C07D6A9D27F890C400D7EB97 = {
+			isa = PBXGroup;
+			children = (
+				C07D6AA827F890C400D7EB97 /* Wordle */,
+				C07D6AB927F890C400D7EB97 /* WordleTests */,
+				C07D6AC327F890C500D7EB97 /* WordleUITests */,
+				C07D6AA727F890C400D7EB97 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C07D6AA727F890C400D7EB97 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C07D6AA627F890C400D7EB97 /* Wordle.app */,
+				C07D6AB627F890C400D7EB97 /* WordleTests.xctest */,
+				C07D6AC027F890C500D7EB97 /* WordleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C07D6AA827F890C400D7EB97 /* Wordle */ = {
+			isa = PBXGroup;
+			children = (
+				C07D6AA927F890C400D7EB97 /* WordleApp.swift */,
+				C02F49202801DC4000A1EB9A /* Statistics.swift */,
+				C020025A27FE23B400A257E6 /* HelpView.swift */,
+				C020025627FDF8A400A257E6 /* SettingsView.swift */,
+				C07D6AAB27F890C400D7EB97 /* GameView.swift */,
+				C07D6AD927F8ABB500D7EB97 /* ColorExtension.swift */,
+				C07D6ADB27F8AC7C00D7EB97 /* Guess.swift */,
+				C07D6ADD27F8AD4A00D7EB97 /* GuessView.swift */,
+				C07D6ADF27F8CC5000D7EB97 /* WordleDataModel.swift */,
+				C02F492628021B8300A1EB9A /* StatsView.swift */,
+				C020025427FDF7ED00A257E6 /* UIWindow.swift */,
+				C0CAA5C527FA2CC200DBD5A6 /* FlipView.swift */,
+				C0CAA5C727FA2E3100DBD5A6 /* Shake.swift */,
+				C07D6AE327F8D06500D7EB97 /* LetterButtonView.swift */,
+				C07D6AE527F8D17300D7EB97 /* Keyboard.swift */,
+				C07D6AE127F8CD6D00D7EB97 /* Global.swift */,
+				C07D6AAD27F890C400D7EB97 /* Assets.xcassets */,
+				C07D6AAF27F890C400D7EB97 /* Preview Content */,
+			);
+			path = Wordle;
+			sourceTree = "<group>";
+		};
+		C07D6AAF27F890C400D7EB97 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C07D6AB027F890C400D7EB97 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C07D6AB927F890C400D7EB97 /* WordleTests */ = {
+			isa = PBXGroup;
+			children = (
+				C07D6ABA27F890C400D7EB97 /* WordleTests.swift */,
+			);
+			path = WordleTests;
+			sourceTree = "<group>";
+		};
+		C07D6AC327F890C500D7EB97 /* WordleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C07D6AC427F890C500D7EB97 /* WordleUITests.swift */,
+				C07D6AC627F890C500D7EB97 /* WordleUITestsLaunchTests.swift */,
+			);
+			path = WordleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C07D6AA527F890C400D7EB97 /* Wordle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07D6ACA27F890C500D7EB97 /* Build configuration list for PBXNativeTarget "Wordle" */;
+			buildPhases = (
+				C07D6AA227F890C400D7EB97 /* Sources */,
+				C07D6AA327F890C400D7EB97 /* Frameworks */,
+				C07D6AA427F890C400D7EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Wordle;
+			productName = Wordle;
+			productReference = C07D6AA627F890C400D7EB97 /* Wordle.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C07D6AB527F890C400D7EB97 /* WordleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07D6ACD27F890C500D7EB97 /* Build configuration list for PBXNativeTarget "WordleTests" */;
+			buildPhases = (
+				C07D6AB227F890C400D7EB97 /* Sources */,
+				C07D6AB327F890C400D7EB97 /* Frameworks */,
+				C07D6AB427F890C400D7EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07D6AB827F890C400D7EB97 /* PBXTargetDependency */,
+			);
+			name = WordleTests;
+			productName = WordleTests;
+			productReference = C07D6AB627F890C400D7EB97 /* WordleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C07D6ABF27F890C400D7EB97 /* WordleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07D6AD027F890C500D7EB97 /* Build configuration list for PBXNativeTarget "WordleUITests" */;
+			buildPhases = (
+				C07D6ABC27F890C400D7EB97 /* Sources */,
+				C07D6ABD27F890C400D7EB97 /* Frameworks */,
+				C07D6ABE27F890C400D7EB97 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C07D6AC227F890C500D7EB97 /* PBXTargetDependency */,
+			);
+			name = WordleUITests;
+			productName = WordleUITests;
+			productReference = C07D6AC027F890C500D7EB97 /* WordleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C07D6A9E27F890C400D7EB97 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					C07D6AA527F890C400D7EB97 = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					C07D6AB527F890C400D7EB97 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C07D6AA527F890C400D7EB97;
+					};
+					C07D6ABF27F890C400D7EB97 = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = C07D6AA527F890C400D7EB97;
+					};
+				};
+			};
+			buildConfigurationList = C07D6AA127F890C400D7EB97 /* Build configuration list for PBXProject "Wordle" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C07D6A9D27F890C400D7EB97;
+			productRefGroup = C07D6AA727F890C400D7EB97 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C07D6AA527F890C400D7EB97 /* Wordle */,
+				C07D6AB527F890C400D7EB97 /* WordleTests */,
+				C07D6ABF27F890C400D7EB97 /* WordleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C07D6AA427F890C400D7EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D6AB127F890C400D7EB97 /* Preview Assets.xcassets in Resources */,
+				C07D6AAE27F890C400D7EB97 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6AB427F890C400D7EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6ABE27F890C400D7EB97 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C07D6AA227F890C400D7EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D6AE427F8D06500D7EB97 /* LetterButtonView.swift in Sources */,
+				C07D6ADA27F8ABB500D7EB97 /* ColorExtension.swift in Sources */,
+				C07D6ADE27F8AD4A00D7EB97 /* GuessView.swift in Sources */,
+				C0CAA5C827FA2E3100DBD5A6 /* Shake.swift in Sources */,
+				C02F492728021B8300A1EB9A /* StatsView.swift in Sources */,
+				C020025527FDF7ED00A257E6 /* UIWindow.swift in Sources */,
+				C07D6AAC27F890C400D7EB97 /* GameView.swift in Sources */,
+				C020025727FDF8A400A257E6 /* SettingsView.swift in Sources */,
+				C07D6AE627F8D17300D7EB97 /* Keyboard.swift in Sources */,
+				C0CAA5C627FA2CC200DBD5A6 /* FlipView.swift in Sources */,
+				C07D6AAA27F890C400D7EB97 /* WordleApp.swift in Sources */,
+				C07D6AE027F8CC5000D7EB97 /* WordleDataModel.swift in Sources */,
+				C07D6ADC27F8AC7C00D7EB97 /* Guess.swift in Sources */,
+				C020025B27FE23B400A257E6 /* HelpView.swift in Sources */,
+				C02F49212801DC4000A1EB9A /* Statistics.swift in Sources */,
+				C07D6AE227F8CD6D00D7EB97 /* Global.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6AB227F890C400D7EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D6ABB27F890C400D7EB97 /* WordleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C07D6ABC27F890C400D7EB97 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07D6AC527F890C500D7EB97 /* WordleUITests.swift in Sources */,
+				C07D6AC727F890C500D7EB97 /* WordleUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C07D6AB827F890C400D7EB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07D6AA527F890C400D7EB97 /* Wordle */;
+			targetProxy = C07D6AB727F890C400D7EB97 /* PBXContainerItemProxy */;
+		};
+		C07D6AC227F890C500D7EB97 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C07D6AA527F890C400D7EB97 /* Wordle */;
+			targetProxy = C07D6AC127F890C500D7EB97 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C07D6AC827F890C500D7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C07D6AC927F890C500D7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07D6ACB27F890C500D7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wordle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wordle.Wordle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C07D6ACC27F890C500D7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Wordle/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wordle.Wordle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C07D6ACE27F890C500D7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wordle.WordleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordle.app/Wordle";
+			};
+			name = Debug;
+		};
+		C07D6ACF27F890C500D7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wordle.WordleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Wordle.app/Wordle";
+			};
+			name = Release;
+		};
+		C07D6AD127F890C500D7EB97 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wordle.WordleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordle;
+			};
+			name = Debug;
+		};
+		C07D6AD227F890C500D7EB97 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Wordle.WordleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Wordle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C07D6AA127F890C400D7EB97 /* Build configuration list for PBXProject "Wordle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D6AC827F890C500D7EB97 /* Debug */,
+				C07D6AC927F890C500D7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07D6ACA27F890C500D7EB97 /* Build configuration list for PBXNativeTarget "Wordle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D6ACB27F890C500D7EB97 /* Debug */,
+				C07D6ACC27F890C500D7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07D6ACD27F890C500D7EB97 /* Build configuration list for PBXNativeTarget "WordleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D6ACE27F890C500D7EB97 /* Debug */,
+				C07D6ACF27F890C500D7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07D6AD027F890C500D7EB97 /* Build configuration list for PBXNativeTarget "WordleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07D6AD127F890C500D7EB97 /* Debug */,
+				C07D6AD227F890C500D7EB97 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C07D6A9E27F890C400D7EB97 /* Project object */;
+}
